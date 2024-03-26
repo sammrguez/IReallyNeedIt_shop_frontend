@@ -1,0 +1,25 @@
+@import url('./blocks/vendor/normalize.css');
+@import url('./blocks/root/root.css');
+
+/* main */
+@import url('./blocks/main/main.css');
+/* header */
+@import url('./blocks/navBar/navBar.css');
+@import url('./blocks/header/header.css');
+
+/* navBar*/
+@import url('./blocks/navBar/navBar.css');
+@import url('./blocks/navBar/__nav/navBar__nav.css');
+@import url('./blocks/navBar/__item/navBar__item.css');
+@import url('./blocks/navBar/__link/navBar__link.css');
+@import url('./blocks/navBar/__logo/navBar__logo.css');
+@import url('./blocks/navBar/__bag/navBar__bag.css');
+
+/*header*/
+
+@import url('./blocks/header/header.css');
+@import url('./blocks/header/__data/header__data.css');
+@import url('./blocks/header/__data/header__data.css');
+@import url('./blocks/header/__info/header__info.css');
+@import url('./blocks/header/__phrase/header__phrase.css');
+@import url('./blocks/header/__images/header__images.css');

@@ -1,0 +1,6 @@
+.header__images {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid blue;
+}
