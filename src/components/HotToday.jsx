@@ -14,7 +14,7 @@ function HotToday() {
             </div>
           </div>
           <button className='button button_shop'>
-            <h3 className='button__text'></h3>
+            <h3 className='button__text'> agregar a carrito </h3>
           </button>
         </div>
         <div className='hotToday__data'>
@@ -24,6 +24,9 @@ function HotToday() {
             destacado de hoy en
             <span className='hotToday__highlight'>I Really Need It</span>
           </h3>
+          <button className='button button_products'>
+            <h3 className='button__text'>más productos </h3>
+          </button>
         </div>
       </div>
     </section>

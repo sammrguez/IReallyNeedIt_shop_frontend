@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 145px;
+  width: 100%;
+  background-color: #ed6a4c;
+}
+.footer__social-media {
+  display: flex;
+  flex-direction: row;
+}
+.footer__item {
+  display: flex;
+  flex-direction: row;
+}

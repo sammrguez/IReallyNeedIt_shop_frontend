@@ -41,3 +41,11 @@
 @import url('./blocks/hotToday/__header/hotToday__header.css');
 @import url('./blocks/hotToday/__text/hotToday__text.css');
 @import url('./blocks/hotToday/__highlight/hotToday__highlight.css');
+
+/* buttons*/
+
+@import url('./blocks/button/button.css');
+@import url('./blocks/button/__text/button__text.css');
+
+/* footer*/
+@import url('./blocks/footer/footer.css');
