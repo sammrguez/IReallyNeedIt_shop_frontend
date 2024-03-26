@@ -27,5 +27,17 @@
 @import url('./blocks/header/__image-exagon/header__image-hexagon.css');
 @import url('./blocks/header/__image-png/header__image-png.css');
 
+/*decoration */
+@import url('./blocks/decoration-band/decoration-band.css');
+
 /*hot today */
 @import url('./blocks/hotToday/hotToday.css');
+@import url('./blocks/hotToday/__content/hotToday__content.css');
+@import url('./blocks/hotToday/__images/hotToday__images.css');
+@import url('./blocks/hotToday/__image-frame/hotToday__image-frame.css');
+@import url('./blocks/hotToday/__image-container/hotToday__image-container.css');
+@import url('./blocks/hotToday/__image/hotToday__image.css');
+@import url('./blocks/hotToday/__data/hotToday__data.css');
+@import url('./blocks/hotToday/__header/hotToday__header.css');
+@import url('./blocks/hotToday/__text/hotToday__text.css');
+@import url('./blocks/hotToday/__highlight/hotToday__highlight.css');

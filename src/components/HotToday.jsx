@@ -5,8 +5,8 @@ import mug from '../images/overthinker.jpg';
 function HotToday() {
   return (
     <section className='hotToday'>
-      <img className='hotToday__decoration-band' src={texture} />
-      <div className='HotToday__content'>
+      <img className='decoration-band' src={texture} />
+      <div className='hotToday__content'>
         <div className='hotToday__images'>
           <div className='hotToday__image-frame'>
             <div className='hotToday__image-container'>
@@ -21,7 +21,7 @@ function HotToday() {
           <h2 className='hotToday__header'>Presentando el Producto del Mes</h2>
           <h3 className='hotToday__text'>
             ¡Los imprescindibles de la temporada están aquí! Explora lo más
-            destacado de hoy en '
+            destacado de hoy en
             <span className='hotToday__highlight'>I Really Need It</span>
           </h3>
         </div>
