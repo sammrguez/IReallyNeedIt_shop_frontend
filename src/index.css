@@ -23,3 +23,9 @@
 @import url('./blocks/header/__info/header__info.css');
 @import url('./blocks/header/__phrase/header__phrase.css');
 @import url('./blocks/header/__images/header__images.css');
+@import url('./blocks/header/__hexagon/header__hexagon.css');
+@import url('./blocks/header/__image-exagon/header__image-hexagon.css');
+@import url('./blocks/header/__image-png/header__image-png.css');
+
+/*hot today */
+@import url('./blocks/hotToday/hotToday.css');
