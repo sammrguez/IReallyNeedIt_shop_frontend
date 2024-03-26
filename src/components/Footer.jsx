@@ -13,6 +13,8 @@ function Footer() {
           <Link
             className='footer__link'
             to='https://www.facebook.com/IReallyNeedItMx?locale=eo_EO'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <img src={facebook} className='footer__media-icon' />
             <h4 className='footer_media-text'> I really Need It</h4>
@@ -22,6 +24,8 @@ function Footer() {
           <Link
             className='footer__link'
             to='https://www.instagram.com/i_really_need_it_mx/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <img src={instagram} className='footer__media-icon' />
             <h4 className='footer_media-text'> I_really_Need_It_mx</h4>

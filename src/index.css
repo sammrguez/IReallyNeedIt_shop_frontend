@@ -49,3 +49,15 @@
 
 /* footer*/
 @import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__social-media/footer__social-media.css');
+@import url('./blocks/footer/__item/footer__item.css');
+@import url('./blocks/footer/__logo/footer__logo.css');
+@import url('./blocks/footer/__link/footer__link.css');
+@import url('./blocks/footer/__media-icon/footer__media-icon.css');
+@import url('./blocks/footer/__media-text/footer__media-text.css');
+
+/* products */
+@import url('./blocks/products/products.css');
+
+/*card*/
+@import url('./blocks/card/card.css');
