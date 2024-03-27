@@ -10,6 +10,7 @@ function Cart() {
         <h2 className='cart__header'>Tus compras</h2>
         <ul className='cart__added-items'>
           <CartItem />
+          <CartItem />
         </ul>
         <div className='cart__total-container'>
           <div className='cart__total-data'>
