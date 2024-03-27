@@ -90,3 +90,10 @@
 @import url('./blocks/cartItem/__data/cartItem__data.css');
 @import url('./blocks/cartItem/__header/cartItem__header.css');
 @import url('./blocks/cartItem/__price/cartItem__price.css');
+
+/* cart item quantifier*/
+@import url('./blocks/cartItem/__quantityBox-container/cartItem__quantityBox-container.css');
+@import url('./blocks/cartItem/__quantityBox/cartItem__quantityBox.css');
+@import url('./blocks/cartItem/__delete-box/cartItem__delete-box.css');
+@import url('./blocks/cartItem/__delete-icon/cartItem__delete-icon.css');
+@import url('./blocks/cartItem/__quantitybox-item/cartItem__quantitybox-item.css');
