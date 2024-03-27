@@ -21,6 +21,7 @@ function NavBar() {
           <Link to='/carrito' className='navBar__link'>
             <img className='navBar__bag' src={bag} alt='Carrito' />
           </Link>
+          <span className='navBar__bag-quantifier'>0</span>
         </li>
       </ul>
     </nav>

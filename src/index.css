@@ -14,6 +14,7 @@
 @import url('./blocks/navBar/__link/navBar__link.css');
 @import url('./blocks/navBar/__logo/navBar__logo.css');
 @import url('./blocks/navBar/__bag/navBar__bag.css');
+@import url('./blocks/navBar/__bag-quantifier/navBar__bag-quantifier.css');
 
 /*header*/
 
