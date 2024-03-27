@@ -77,6 +77,16 @@
 /*cart */
 @import url('./blocks/cart/cart.css');
 @import url('./blocks/cart/__container/cart__container.css');
+@import url('./blocks/cart/__header/cart__header.css');
+@import url('./blocks/cart/__total-container/cart__total-container.css');
+@import url('./blocks/cart/__total-data/cart__total-data.css');
+@import url('./blocks/cart/__total-header/cart__total-header.css');
+@import url('./blocks/cart/__amount/cart__amount.css');
 
 /* cart item*/
 @import url('./blocks/cartItem/cartItem.css');
+@import url('./blocks/cartItem/__image-container/cart__image-container.css');
+@import url('./blocks/cartItem/__image/cartItem__image.css');
+@import url('./blocks/cartItem/__data/cartItem__data.css');
+@import url('./blocks/cartItem/__header/cartItem__header.css');
+@import url('./blocks/cartItem/__price/cartItem__price.css');
