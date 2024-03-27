@@ -3,6 +3,7 @@ import Main from './Main';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Products from './Products';
+import PopupProduct from './PopupProduct';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/productos' element={<Products />} />
       </Routes>
       <Footer />
+      <PopupProduct />
     </>
   );
 }

@@ -1,0 +1,73 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 110;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 105;
+}
+.form-product {
+  display: flex;
+  align-items: center;
+  background-color: #edcde1;
+  width: 85%;
+  height: 900px;
+  z-index: 115;
+  border-radius: 40px;
+}
+.form-product__image {
+  max-width: 400px;
+  height: 600px;
+  margin-left: 40px;
+}
+.form-product__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form-product__header {
+  color: #007a64;
+  font-family: marquisette;
+  font-size: 64px;
+  text-align: center;
+}
+.form-product__caption {
+  margin-top: 15px;
+  color: #595b56;
+  font-size: 40px;
+  text-align: center;
+  align-self: start;
+}
+.form-product__sub-header {
+  margin-top: 50px;
+  color: #595b56;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+.form-product__price {
+  margin-top: 40px;
+  color: #ed6a4c;
+  font-weight: bold;
+  font-size: 44px;
+  align-self: center;
+}
+.form-product__disclairmer {
+  margin-top: 55px;
+  color: #595b56;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
