@@ -3,7 +3,7 @@ import iphoneCase from '../images/case.png';
 
 function PopupProduct() {
   return (
-    <div className='popup popup_type_product'>
+    <div className='popup popup_type_product '>
       <div className='overlay'></div>
       <form className='form-product'>
         <img className='form-product__image' src={iphoneCase} />

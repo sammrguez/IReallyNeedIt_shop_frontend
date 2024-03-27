@@ -8,6 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
+}
+.popup_opened {
+  display: flex;
+  visibility: visible;
 }
 .overlay {
   width: 100%;
