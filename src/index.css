@@ -70,3 +70,6 @@
 
 /* popup */
 @import url('./blocks/popup/popup.css');
+
+/* forms */
+@import url('./blocks/form/form.css');
