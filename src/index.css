@@ -46,6 +46,7 @@
 
 @import url('./blocks/button/button.css');
 @import url('./blocks/button/__text/button__text.css');
+@import url('./blocks/button/__link/button__link.css');
 
 /* footer*/
 @import url('./blocks/footer/footer.css');
@@ -58,6 +59,11 @@
 
 /* products */
 @import url('./blocks/products/products.css');
+@import url('./blocks/products/__container/products__container.css');
 
 /*card*/
 @import url('./blocks/card/card.css');
+@import url('./blocks/card/__image/card__image.css');
+@import url('./blocks/card/__data/card__data.css');
+@import url('./blocks/card/__header/card__header.css');
+@import url('./blocks/card/__price/card__price.css');

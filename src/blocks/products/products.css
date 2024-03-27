@@ -1,16 +1,6 @@
 .products {
-  background-color: #361166;
-  max-width: 100%;
+  background-color: #c4723b;
   margin: auto;
-  height: 1500px;
-  display: flex;
-}
-
-.products__container {
-  max-width: 1220px;
-  margin: 200px auto 0px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
-  grid-auto-rows: 600px;
-  background-color: rgb(54, 103, 146);
+  max-width: 1280px;
+  min-width: 300px;
 }

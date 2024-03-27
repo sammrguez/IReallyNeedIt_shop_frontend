@@ -4,10 +4,10 @@ import HotToday from './HotToday';
 
 function Main() {
   return (
-    <section className='main'>
+    <main className='main'>
       <Header />
       <HotToday />
-    </section>
+    </main>
   );
 }
 

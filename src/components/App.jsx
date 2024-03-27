@@ -6,14 +6,14 @@ import Products from './Products';
 
 function App() {
   return (
-    <div className='page'>
+    <>
       <NavBar />
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/productos' element={<Products />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

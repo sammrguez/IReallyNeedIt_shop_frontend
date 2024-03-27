@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import texture from '../images/textura_IRNI.jpg';
 import mug from '../images/overthinker.jpg';
 
@@ -24,9 +25,9 @@ function HotToday() {
             destacado de hoy en
             <span className='hotToday__highlight'>I Really Need It</span>
           </h3>
-          <button className='button button_products'>
+          <Link className='button button__link' to='/productos'>
             <h3 className='button__text'>más productos </h3>
-          </button>
+          </Link>
         </div>
       </div>
     </section>

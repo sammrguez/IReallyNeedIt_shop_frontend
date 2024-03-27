@@ -42,12 +42,13 @@ span {
   min-width: 300px;
   max-width: 1280px;
   margin: auto;
+  overflow: hidden;
 }
 .page {
   background-color: #e6d6cb;
   font-family: matter;
-
-  min-width: 300px;
+  overflow: hidden;
+  /* min-width: 300px;
   max-width: 1280px;
-  margin: auto;
+  margin: auto; */
 }
