@@ -42,7 +42,6 @@ span {
   min-width: 300px;
   max-width: 1280px;
   margin: auto;
-  overflow: hidden;
 }
 .page {
   background-color: #e6d6cb;

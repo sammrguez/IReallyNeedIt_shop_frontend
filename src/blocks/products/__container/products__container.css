@@ -8,6 +8,4 @@
   grid-template-columns: repeat(auto-fit, 380px);
   gap: 40px;
   grid-auto-rows: 590px;
-
-  overflow: hidden;
 }
