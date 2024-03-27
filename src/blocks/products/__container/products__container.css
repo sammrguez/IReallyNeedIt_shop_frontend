@@ -1,11 +1,13 @@
 .products__container {
+  padding: 15px;
   justify-content: center;
+  max-height: 3000px;
   max-width: 1220px;
-  margin: 00px auto 0px;
+  margin: 0px auto 0px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 380px);
   gap: 40px;
   grid-auto-rows: 590px;
-  background-color: #e6d6cb;
+
   overflow: hidden;
 }
