@@ -1,0 +1,40 @@
+.cart {
+  max-width: 1280px;
+  min-width: 300px;
+}
+
+.cart__header {
+  font-family: bugisnia;
+  max-width: 350px;
+  margin: auto;
+  font-size: 74px;
+  color: #007a64;
+  padding-top: 20px;
+}
+
+.cart__total-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  padding: 50px;
+}
+.cart__total-header {
+  font-family: bugisnia;
+  text-align: left;
+  max-width: 300px;
+  margin: auto;
+  font-size: 64px;
+  color: #007a64;
+}
+.cart__total-data {
+  max-width: 80%;
+  min-width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.cart__amount {
+  color: #ed6a4c;
+  font-size: 44px;
+}

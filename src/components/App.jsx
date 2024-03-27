@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import Products from './Products';
 import PopupProduct from './PopupProduct';
+import Cart from './Cart';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/productos' element={<Products />} />
+        <Route path='/carrito' element={<Cart />} />
       </Routes>
       <Footer />
       <PopupProduct />

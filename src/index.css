@@ -73,3 +73,10 @@
 
 /* forms */
 @import url('./blocks/form/form.css');
+
+/*cart */
+@import url('./blocks/cart/cart.css');
+@import url('./blocks/cart/__container/cart__container.css');
+
+/* cart item*/
+@import url('./blocks/cartItem/cartItem.css');
