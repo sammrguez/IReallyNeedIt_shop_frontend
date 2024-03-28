@@ -1,8 +1,9 @@
 import React from 'react';
 import foto from '../images/snoopy-airpods.png';
-function Card() {
+import { useState } from 'react';
+function Card({ onClick }) {
   return (
-    <div className='card'>
+    <div className='card' onClick={onClick}>
       <img className='card__image' src={foto} />
       <div className='card__data'>
         <h3 className='card__header'>Case airpods Snoopy</h3>

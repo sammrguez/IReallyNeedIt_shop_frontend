@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "case airpods Hello Kitty 1",
+      "description": "Case Compatible con Aipords Chicas Hello Kitty",
+      "available": "5",
+      "price": "249",
+      "photo-link": "https://drive.google.com/file/d/1S2uXIOfNknN48-Iak4xBnyPTXht3DJee/view?usp=drive_link"
+    },
+    {
+      "name": "case  airpods Hello Kitty",
+      "description": "AirPods Case Compatibles Para 1, 2 Y Pro Case Hello Kitty",
+      "available": "10",
+      "price": "249",
+      "photo-link": "https://drive.google.com/file/d/1S2uXIOfNknN48-Iak4xBnyPTXht3DJee/view?usp=drive_link"
+    }
+  ]
+}
