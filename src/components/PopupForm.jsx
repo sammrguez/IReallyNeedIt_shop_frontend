@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import IRNIsticker from '../images/stickers_IRNI_purple.png';
 import google from '../images/google.png';
 import gmail from '../images/gmail.png';
 
 function PopupForm({ header }) {
   return (
-    <div className='popup popup_type_signin popup_openedd'>
+    <div className='popup popup_type_signin popup_opened'>
       <div className='overlay'></div>
       <div className='popup__container popup__container-sign'>
         <img className='popup__logo' src={IRNIsticker} />
@@ -23,8 +24,9 @@ function PopupForm({ header }) {
             <button className='button button_type_sign'>
               <img />
               <h3 className='button__text'> registrar con </h3>
-              <img src={gmail} alt='simbolo de mail' />
+              <img src={gmail} className='button__icon' alt='simbolo de mail' />
             </button>
+            <Link to='/login'> Inicia sesion </Link>
           </fieldset>
         </form>
       </div>
